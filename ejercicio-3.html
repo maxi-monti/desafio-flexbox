@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+
+  <head>
+
+    <meta charset="utf-8">
+    <title>Ejercicio 3</title>
+    <meta name="viewport" content="width=width-device, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;700&display=swap" rel="stylesheet">
+
+    <style>   /* Style */
+
+        body {
+            height: 100%;            
+            margin: 0px;
+            padding: 0px;
+            overflow-x: hidden; 
+        }
+
+        .nav {
+            display: flex;                 /* Alinea los elementos horizontalmente */
+            flex-direction: row;           /* La dirección de los elementos será en horizontal (row) */
+            align-items: center;           /* Evitar que cambie por defecto el tamaño de los ítems internos a este div contenedor */
+            justify-content: center;
+            flex-wrap: wrap;
+            width: 100vw;
+            height: 15vh;
+            border: 1px solid black;
+        }
+
+        .nav__img {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            box-sizing: border-box;
+            width: 5vw;
+            margin-left: 4%;
+        }
+
+        .nav__menu {
+            box-sizing: border-box;
+            margin-left: auto;
+            margin-right: 4%;
+        }
+
+        li {
+            display: inline;
+        }
+
+        .nav__menu-item {
+            margin-right: 40px;
+            font-size: 130%;
+        }
+
+    </style>
+
+  </head>
+  <body>
+
+    <nav class="nav">
+        <img class="nav__img" src="img/logo.png" alt="">
+        <ul class="nav__menu">
+            <li class="nav__menu-item">Inicio</li>
+            <li class="nav__menu-item">Entrevistas</li>
+            <li class="nav__menu-item">Música</li>
+            <li class="nav__menu-item">Tendencias</li>
+        </ul>
+    </nav>
+
+</body>
+</html>

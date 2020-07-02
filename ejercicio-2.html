@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+
+  <head>
+
+    <meta charset="utf-8">
+    <title>Ejercicio 2</title>
+    <meta name="viewport" content="width=width-device, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;700&display=swap" rel="stylesheet">
+
+    <style>   /* Style */
+
+        body {
+            background-color: black;
+        }
+
+        .container {
+            display: flex;                 /* Alinea los elementos horizontalmente */
+            flex-direction: row;           /* La dirección de los elementos será en horizontal (row) */
+            align-items: center;           /* Evitar que cambie por defecto el tamaño de los ítems internos a este div contenedor */
+            justify-content: center;
+            flex-wrap: wrap;
+            width: 80vw;
+            height: 50vh;
+            background-color: white;
+            margin: 10%;
+        }
+
+        .input {
+            border-style: 1px solid black;
+            box-sizing: border-box;
+            width: 50vw;
+            height: 10vh;
+            flex-grow: 1;
+            margin: 3% 0 3% 3%;
+        }
+
+        .boton {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-sizing: border-box;
+            color: white;
+            background-color: #55ccfc;
+            border: 1px solid black;
+            width: 15vw;
+            height: 10vh;
+            font-size: 25px;
+            text-align: center;
+            box-sizing: border-box;        /* Compacta padding y border internos de cada elemento para que entren en el div mayor-contendor */
+            margin: 3% 3% 3% 0;
+        }
+
+    </style>
+
+  </head>
+  <body>
+
+    <div class="container">
+        <input class="input" type="text">
+        <button class="boton">
+            <p>Buscar</p>
+        </button>
+    </div>
+
+</body>
+</html>
+
+
